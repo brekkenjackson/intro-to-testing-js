@@ -11,10 +11,9 @@ const helloWorld = function () {
 //     return 2;
 // }
 
-// 1.
-const sayHello = function () {
-    return " "
+
+const sayHello = function (name) {
+    return "Hello, " + name + "!"
 }
 
-// 2.
 
