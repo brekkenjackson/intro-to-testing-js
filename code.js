@@ -13,7 +13,13 @@ const helloWorld = function () {
 
 
 const sayHello = function (name) {
-    return "Hello, " + name + "!"
+    if (name) {
+        return "Hello, " + name + "!";
+    } else {
+        return "Hello, World!"
+    }
 }
+
+
 
 

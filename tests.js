@@ -41,6 +41,12 @@ describe('sayHello', function() {
     it('should return "Hello, Pat!" when given "Pat".', function () {
         expect(sayHello("Pat")).toBe('Hello, Pat!');
     })
+    it('should return "Hello, World!" when called.', function () {
+        expect(sayHello()).toBe('Hello, World!');
+    })
+    it('should return "Hello, World!" when given a boolean.', function () {
+        expect(sayHello(false)).toBe('Hello, World!');
+    })
 });
 
 
